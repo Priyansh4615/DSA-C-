@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-/*
+
   
   cout << "Namaste duniya :)"<<endl;
 
@@ -43,11 +43,34 @@ int main() {
 
   char ch1  = 123456;
   cout << ch1 << endl; //warning (implicit conversion)
-  */
 
   unsigned int z = -112;
   unsigned int y = 112;
   cout << z << endl;
   cout << y << endl;
+  
+
+  int p = 2.0/5;
+  cout << p << endl;
+  cout << 2.0/5 << endl;
+  
+
+  int g = 7 , h=8;
+
+  bool first = (g==h);
+  cout << first << endl;
+
+  bool second = (g>h);
+  cout << second << endl;
+
+  bool third = (g<h);
+  cout << third << endl;
+
+  bool fourth = (g>=h);
+  cout << fourth << endl;
+
+  bool fifth = (g!=h);
+  cout << fifth << endl;
+
   
 }
